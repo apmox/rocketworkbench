@@ -1,0 +1,56 @@
+
+simulation = 
+  (initial_conditions = (u         = 0.0,
+			 v         = 0.0,
+			 w         = 0.0,
+			 P         = 0.0,
+			 Q         = 0.0,
+			 R         = 0.0,
+			 latitude  = 0.0,
+			 longitude = 0.0,
+			 altitude  = 0.0,
+			 phi       = 0.0,
+			 theta     = 89.0,
+			 psi       = 0.0
+			),
+   rocket = (stage = (dry_mass        = 1000., # (Head)
+	              Ix              = 4390.,
+	              Iy              = 318245.,
+	              Iz              = 318245.,
+	              Cd              = 0.15,
+	              Cd_data_file    = "V2drag.dat",
+	              CL              = 0.1,
+	              CB              = 0.1,
+	              Cspin           = 20.0,
+	              Cmoment         = 6.32,
+	              Cdamping        = 31.6,
+	              Diameter        = 1.65,
+	              # this is the total duration during which the
+	              # stage is active, i.e. from the time the previous 
+	              # stage were drop until this stage is drop.
+	              active_time     = 1000.0,
+                      engine = (thrust          = 250000.0,
+                                thrust_data_file = "V2thrust.dat",
+	                        propellant_mass = 8935.,
+				dry_mass        = 2965.,
+	                        mass_flow       = 0.1,
+				start_time      = 0.0,
+				burn_time       = 65.,
+				drop_time       = 65.0,
+				position        = (x = -1.0,
+                                                   y =  0.0,
+                                                   z =  0.0),
+                                direction       = (x =  1.0,
+                                                   y =  0.0,
+					           z =  0.0)
+			       )
+                     )
+              )
+  ,solution = (duration  = 100.0,
+               dt        = 0.1,
+               precision = 0.01)
+  )
+
+
+
+

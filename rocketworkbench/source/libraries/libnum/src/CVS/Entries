@@ -1,0 +1,17 @@
+/Makefile/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/Makefile.tmp/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/general.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/lu.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/make_source/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/newton.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/print.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/ptfix.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/rk4.c/1.1.1.1/Fri Jul 20 03:19:08 2001//
+/rkf.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/sec.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/simpson.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/spline.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/sysnewton.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/test.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+/trapeze.c/1.1.1.1/Fri Jul 20 03:19:09 2001//
+D
